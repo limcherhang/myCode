@@ -1,0 +1,7 @@
+2024-02-27 15:26:37.853 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-27 15:26:38.393 utils.util [DEBUG] {'_id': None, 'allkeys': ['nameKey', 'categoryKey', 'usedRegion', 'methods', 'type', 'typeOfEmission', 'scope', 'sourceOfEmission', 'category', '_id', 'sourceType']}
+2024-02-27 15:26:38.394 utils.util [DEBUG] 
+2024-02-27 15:26:39.454 utils.util [DEBUG] {'ch4Factor', 'year', 'sourceType', 'source', 'sheetName', 'co2Factor', 'vehicleType', 'ar5Factor', 'link', 'baseUnit', 'urlName', 'n2oFactor', 'n2oUnit', 'companyId', 'emissionUnit', 'sourceOfEmission', 'ar4Factor', 'fuelEfficiency', 'ch4Unit', 'file', 'type'}
+2024-02-27 15:39:51.653 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-27 15:39:52.190 utils.util [DEBUG] {'_id': None, 'allkeys': ['type', 'typeOfEmission', 'sourceOfEmission', 'category', '_id', 'sourceType', 'nameKey', 'usedRegion', 'categoryKey', 'methods', 'scope']}
+2024-02-27 15:39:52.191 utils.util [DEBUG] 

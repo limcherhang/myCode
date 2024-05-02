@@ -1,0 +1,79 @@
+2023-12-05 13:55:36.174 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 13:55:36.181 googleapiclient.discovery [WARNING] media_mime_type argument not specified: trying to auto-detect for result_12100000.csv
+2023-12-05 13:55:36.304 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 13:55:36.327 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 13:57:41.833 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 13:57:41.841 googleapiclient.discovery [WARNING] media_mime_type argument not specified: trying to auto-detect for result_12100000.csv
+2023-12-05 13:57:41.943 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 13:57:41.966 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:01:35.280 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:01:35.289 googleapiclient.discovery [WARNING] media_mime_type argument not specified: trying to auto-detect for test
+2023-12-05 14:05:51.888 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:05:51.897 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:05:51.923 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:05:53.391 googleapiclient.discovery [WARNING] media_mime_type argument not specified: trying to auto-detect for test
+2023-12-05 14:10:34.529 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:10:34.538 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:10:34.560 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:11:39.788 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:11:39.795 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:11:39.820 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:11:40.968 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:12:28.527 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:12:28.532 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:12:28.553 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:12:29.955 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:15:55.601 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:15:55.606 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:15:55.629 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:15:56.257 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:15:57.196 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:16:01.971 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:16:01.977 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:16:02.000 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:16:02.654 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:16:09.651 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:16:09.655 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:16:09.674 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:16:10.342 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:17:12.704 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:17:12.708 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:17:12.729 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:17:13.262 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:17:14.174 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:17:21.515 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:17:21.521 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:17:21.543 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:17:22.387 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:19:49.649 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:19:49.657 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:19:49.677 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:19:50.209 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:19:51.000 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:20:02.216 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:20:02.220 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:20:02.241 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:20:02.898 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:20:31.482 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:20:31.486 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:20:31.506 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:20:32.058 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:20:32.992 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:20:50.490 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:20:50.498 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:20:50.519 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:20:51.166 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:20:59.111 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:20:59.114 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:20:59.134 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:20:59.784 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:24:13.182 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:24:13.188 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:24:13.209 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:24:13.766 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2023-12-05 14:24:14.580 utils.util [ERROR] Upload failed, message: [Errno 2] No such file or directory: 'result_12200000.csv'
+2023-12-05 14:24:38.705 googleapiclient.discovery_cache [INFO] file_cache is only supported with oauth2client<4.0.0
+2023-12-05 14:24:38.708 googleapiclient.discovery [DEBUG] URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test%27+and+mimeType%3D%27application%2Fvnd.google-apps.folder%27+and+%271eMhegtGSMT1eeh9xyOyzP-QlJ_e8tUGr%27+in+parents&fields=files%28id%29&alt=json
+2023-12-05 14:24:38.729 google_auth_httplib2 [DEBUG] Making request: POST https://oauth2.googleapis.com/token
+2023-12-05 14:24:39.372 googleapiclient.discovery [DEBUG] URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?alt=json&uploadType=multipart
+2023-12-05 14:24:42.227 utils.util [INFO] File 'result_14200000.csv' uploaded to folder 'test' with ID: 1sl9rhgD8418g9_iAggjf_dT_EdNpYhkW

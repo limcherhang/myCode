@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if history is none %}
+        <div>There is no history data</div>
+    {% else %}
+        <ul>
+            {% for h in history %}
+                <li>h</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <a href="/">回到首頁</a>
+</body>
+</html>

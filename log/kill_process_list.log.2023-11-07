@@ -1,0 +1,34 @@
+2023-11-07 10:51:43.369 connection.mysql_connection [INFO] =================================================
+2023-11-07 10:51:43.394 connection.mysql_connection [INFO] our db_config:
+2023-11-07 10:51:43.395 connection.mysql_connection [INFO] host: 20.205.24.18
+2023-11-07 10:51:43.396 connection.mysql_connection [INFO] port: 3306
+2023-11-07 10:51:43.396 connection.mysql_connection [INFO] user: eco
+2023-11-07 10:51:43.397 connection.mysql_connection [INFO] password: ECO4ever
+2023-11-07 10:51:43.398 connection.mysql_connection [INFO] autocommit: True
+2023-11-07 10:51:43.398 connection.mysql_connection [INFO] dictionary mode: False
+2023-11-07 10:51:43.399 connection.mysql_connection [INFO] =================================================
+2023-11-07 10:51:43.431 utils.util [DEBUG] (42061, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52272', None, 'Sleep', 7689, '', None)
+2023-11-07 10:51:43.458 utils.util [DEBUG] (42062, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52273', None, 'Sleep', 7691, '', None)
+2023-11-07 10:51:43.485 utils.util [DEBUG] (43236, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52459', None, 'Sleep', 7206, '', None)
+2023-11-07 10:51:43.514 utils.util [DEBUG] (43383, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52475', None, 'Sleep', 7187, '', None)
+2023-11-07 10:51:43.542 utils.util [DEBUG] (43810, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52713', None, 'Sleep', 6609, '', None)
+2023-11-07 10:51:43.570 utils.util [DEBUG] (43885, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52715', None, 'Sleep', 6589, '', None)
+2023-11-07 10:51:43.598 utils.util [DEBUG] (44526, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52883', None, 'Sleep', 6009, '', None)
+2023-11-07 10:51:43.626 utils.util [DEBUG] (44532, 'eco', '1-170-50-141.dynamic-ip.hinet.net:52887', None, 'Sleep', 5989, '', None)
+2023-11-07 10:51:43.653 utils.util [DEBUG] (44678, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53070', None, 'Sleep', 5409, '', None)
+2023-11-07 10:51:43.681 utils.util [DEBUG] (44684, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53072', None, 'Sleep', 5389, '', None)
+2023-11-07 10:51:43.709 utils.util [DEBUG] (44828, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53191', None, 'Sleep', 4808, '', None)
+2023-11-07 10:51:43.738 utils.util [DEBUG] (44834, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53198', None, 'Sleep', 4789, '', None)
+2023-11-07 10:51:43.766 utils.util [DEBUG] (44981, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53398', None, 'Sleep', 4209, '', None)
+2023-11-07 10:51:43.793 utils.util [DEBUG] (44986, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53400', None, 'Sleep', 4189, '', None)
+2023-11-07 10:51:43.821 utils.util [DEBUG] (45132, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53542', None, 'Sleep', 3609, '', None)
+2023-11-07 10:51:43.850 utils.util [DEBUG] (45138, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53547', None, 'Sleep', 3589, '', None)
+2023-11-07 10:51:43.877 utils.util [DEBUG] (45314, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53658', None, 'Sleep', 3009, '', None)
+2023-11-07 10:51:43.906 utils.util [DEBUG] (45320, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53662', None, 'Sleep', 2989, '', None)
+2023-11-07 10:51:43.933 utils.util [DEBUG] (45465, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53921', None, 'Sleep', 2409, '', None)
+2023-11-07 10:51:43.961 utils.util [DEBUG] (45471, 'eco', '1-170-50-141.dynamic-ip.hinet.net:53937', None, 'Sleep', 2389, '', None)
+2023-11-07 10:51:43.990 utils.util [DEBUG] (45617, 'eco', '1-170-50-141.dynamic-ip.hinet.net:54069', None, 'Sleep', 1809, '', None)
+2023-11-07 10:51:44.018 utils.util [DEBUG] (45623, 'eco', '1-170-50-141.dynamic-ip.hinet.net:54087', None, 'Sleep', 1789, '', None)
+2023-11-07 10:51:44.046 utils.util [DEBUG] (45769, 'eco', '1-170-50-141.dynamic-ip.hinet.net:54263', None, 'Sleep', 1209, '', None)
+2023-11-07 10:51:44.073 utils.util [DEBUG] (45775, 'eco', '1-170-50-141.dynamic-ip.hinet.net:54277', None, 'Sleep', 1189, '', None)
+2023-11-07 10:51:44.101 utils.util [DEBUG] (45921, 'eco', '1-170-50-141.dynamic-ip.hinet.net:54408', None, 'Sleep', 609, '', None)

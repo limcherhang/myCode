@@ -1,0 +1,6 @@
+2024-03-04 09:40:49.097 connection.mongo_connection [INFO] Connected to MongoDB
+2024-03-04 09:40:49.633 utils.util [DEBUG] {'_id': None, 'allkeys': ['category', '_id', 'sourceType', 'nameKey', 'usedRegion', 'methods', 'type', 'scope', 'typeOfEmission', 'categoryKey', 'sourceOfEmission']}
+2024-03-04 09:40:49.634 utils.util [DEBUG] 
+2024-03-04 09:40:50.861 utils.util [DEBUG] {'source', 'baseUnit', 'file', 'vehicleType', 'fuelEfficiency', 'n2oFactor', 'ch4Factor', 'ch4Unit', 'sourceType', 'sourceOfEmission', 'sheetName', 'type', 'companyId', 'link', 'emissionUnit', 'ar5Factor', 'co2Factor', 'year', 'urlName', 'n2oUnit', 'ar4Factor'}
+2024-03-04 09:40:50.863 utils.util [DEBUG] ['GHG', 'DEFRA', 'EPA', 'IGES', 'GHG 2017', 'US EPA-SupplyChain-USD2021', 'IPCC', 'Knowles-EPA', 'Knowles-UNFCCC', 'Knowles-UNFCC', 'Knowles-OWID', 'Knowles - EPA', 'Knowles - UNFCC', 'EPA Taiwan', 'ThaiWah', 'KTIS', 'MEIH']
+2024-03-04 09:40:50.950 connection.mongo_connection [INFO] Closed MongoDB connection

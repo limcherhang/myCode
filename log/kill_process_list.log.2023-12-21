@@ -1,0 +1,34 @@
+2023-12-21 16:33:26.757 connection.mysql_connection [INFO] =================================================
+2023-12-21 16:33:26.785 connection.mysql_connection [INFO] our db_config:
+2023-12-21 16:33:26.786 connection.mysql_connection [INFO] host: 20.205.24.18
+2023-12-21 16:33:26.787 connection.mysql_connection [INFO] port: 3306
+2023-12-21 16:33:26.788 connection.mysql_connection [INFO] user: eco
+2023-12-21 16:33:26.789 connection.mysql_connection [INFO] password: ECO4ever
+2023-12-21 16:33:26.790 connection.mysql_connection [INFO] autocommit: True
+2023-12-21 16:33:26.790 connection.mysql_connection [INFO] dictionary mode: False
+2023-12-21 16:33:26.792 connection.mysql_connection [INFO] =================================================
+2023-12-21 16:33:26.821 utils.util [DEBUG] (4565280, 'eco', '1-170-44-94.dynamic-ip.hinet.net:53827', 'sys', 'Sleep', 7866, '', None)
+2023-12-21 16:33:26.849 utils.util [DEBUG] (4565284, 'eco', '1-170-44-94.dynamic-ip.hinet.net:53830', 'sys', 'Sleep', 7846, '', None)
+2023-12-21 16:33:26.879 utils.util [DEBUG] (4565685, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54002', 'sys', 'Sleep', 7266, '', None)
+2023-12-21 16:33:26.908 utils.util [DEBUG] (4565687, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54004', 'sys', 'Sleep', 7246, '', None)
+2023-12-21 16:33:26.938 utils.util [DEBUG] (4566074, 'eco', '1-170-44-94.dynamic-ip.hinet.net:53695', 'sys', 'Sleep', 6666, '', None)
+2023-12-21 16:33:26.969 utils.util [DEBUG] (4566078, 'eco', '1-170-44-94.dynamic-ip.hinet.net:53705', 'sys', 'Sleep', 6646, '', None)
+2023-12-21 16:33:26.999 utils.util [DEBUG] (4566463, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54017', 'sys', 'Sleep', 6066, '', None)
+2023-12-21 16:33:27.028 utils.util [DEBUG] (4566467, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54026', 'sys', 'Sleep', 6046, '', None)
+2023-12-21 16:33:27.061 utils.util [DEBUG] (4566874, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54245', 'sys', 'Sleep', 5466, '', None)
+2023-12-21 16:33:27.098 utils.util [DEBUG] (4566879, 'eco', '1-170-44-94.dynamic-ip.hinet.net:54249', 'sys', 'Sleep', 5446, '', None)
+2023-12-21 16:33:27.129 utils.util [DEBUG] (4567266, 'eco', '1-170-44-94.dynamic-ip.hinet.net:51913', 'sys', 'Sleep', 4866, '', None)
+2023-12-21 16:33:27.160 utils.util [DEBUG] (4567270, 'eco', '1-170-44-94.dynamic-ip.hinet.net:51940', 'sys', 'Sleep', 4846, '', None)
+2023-12-21 16:33:27.199 utils.util [DEBUG] (4567656, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52064', 'sys', 'Sleep', 4266, '', None)
+2023-12-21 16:33:27.229 utils.util [DEBUG] (4567662, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52065', 'sys', 'Sleep', 4246, '', None)
+2023-12-21 16:33:27.259 utils.util [DEBUG] (4568063, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52189', 'sys', 'Sleep', 3666, '', None)
+2023-12-21 16:33:27.290 utils.util [DEBUG] (4568067, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52194', 'sys', 'Sleep', 3646, '', None)
+2023-12-21 16:33:27.320 utils.util [DEBUG] (4568457, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52543', 'sys', 'Sleep', 3066, '', None)
+2023-12-21 16:33:27.349 utils.util [DEBUG] (4568458, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52547', 'sys', 'Sleep', 3046, '', None)
+2023-12-21 16:33:27.381 utils.util [DEBUG] (4568846, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52669', 'sys', 'Sleep', 2466, '', None)
+2023-12-21 16:33:27.420 utils.util [DEBUG] (4568848, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52680', 'sys', 'Sleep', 2446, '', None)
+2023-12-21 16:33:27.450 utils.util [DEBUG] (4569251, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52782', 'sys', 'Sleep', 1866, '', None)
+2023-12-21 16:33:27.481 utils.util [DEBUG] (4569252, 'eco', '1-170-44-94.dynamic-ip.hinet.net:52784', 'sys', 'Sleep', 1846, '', None)
+2023-12-21 16:33:27.524 utils.util [DEBUG] (4569641, 'eco', '1-170-44-94.dynamic-ip.hinet.net:62785', 'sys', 'Sleep', 1266, '', None)
+2023-12-21 16:33:27.552 utils.util [DEBUG] (4569642, 'eco', '1-170-44-94.dynamic-ip.hinet.net:62787', 'sys', 'Sleep', 1246, '', None)
+2023-12-21 16:33:27.581 utils.util [DEBUG] (4570031, 'eco', '1-170-44-94.dynamic-ip.hinet.net:62938', 'sys', 'Sleep', 666, '', None)

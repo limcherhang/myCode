@@ -1,0 +1,9 @@
+2024-01-05 11:52:11.120 connection.mysql_connection [INFO] =================================================
+2024-01-05 11:52:11.139 connection.mysql_connection [INFO] our db_config:
+2024-01-05 11:52:11.140 connection.mysql_connection [INFO] host: 20.205.16.212
+2024-01-05 11:52:11.140 connection.mysql_connection [INFO] port: 3306
+2024-01-05 11:52:11.141 connection.mysql_connection [INFO] user: eco
+2024-01-05 11:52:11.141 connection.mysql_connection [INFO] password: ECO4ever
+2024-01-05 11:52:11.142 connection.mysql_connection [INFO] autocommit: True
+2024-01-05 11:52:11.142 connection.mysql_connection [INFO] dictionary mode: False
+2024-01-05 11:52:11.143 connection.mysql_connection [INFO] =================================================

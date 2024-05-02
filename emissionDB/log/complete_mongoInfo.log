@@ -1,0 +1,822 @@
+2024-02-28 09:06:09.295 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-28 09:06:09.302 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:06:09.303 connection.mysql_connection [INFO] our db_config:
+2024-02-28 09:06:09.303 connection.mysql_connection [INFO] host: 127.0.0.1
+2024-02-28 09:06:09.304 connection.mysql_connection [INFO] port: 3306
+2024-02-28 09:06:09.305 connection.mysql_connection [INFO] user: root
+2024-02-28 09:06:09.305 connection.mysql_connection [INFO] password: limch0227
+2024-02-28 09:06:09.306 connection.mysql_connection [INFO] autocommit: True
+2024-02-28 09:06:09.306 connection.mysql_connection [INFO] dictionary mode: False
+2024-02-28 09:06:09.307 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:06:09.308 utils.util [DEBUG] ((1, 'EPA'), (2, 'EPA Taiwan'), (3, 'DEFRA'), (4, 'GHG'), (5, 'MEIH'), (6, 'IGES'), (7, 'GHG 2017'), (8, 'US EPA-SupplyChain-USD2021'), (9, 'IPCC'), (10, 'Knowles-EPA'), (11, 'Knowles-UNFCCC'), (12, 'Knowles-UNFCC'), (13, 'Knowles-OWID'), (14, 'Knowles - EPA'), (15, 'Knowles - UNFCC'), (16, 'ThaiWah'), (17, 'KTIS'))
+2024-02-28 09:07:55.058 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-28 09:07:55.061 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:07:55.061 connection.mysql_connection [INFO] our db_config:
+2024-02-28 09:07:55.061 connection.mysql_connection [INFO] host: 127.0.0.1
+2024-02-28 09:07:55.062 connection.mysql_connection [INFO] port: 3306
+2024-02-28 09:07:55.062 connection.mysql_connection [INFO] user: root
+2024-02-28 09:07:55.062 connection.mysql_connection [INFO] password: limch0227
+2024-02-28 09:07:55.063 connection.mysql_connection [INFO] autocommit: True
+2024-02-28 09:07:55.063 connection.mysql_connection [INFO] dictionary mode: False
+2024-02-28 09:07:55.064 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:07:55.065 utils.util [DEBUG] {'EPA': 1, 'EPA Taiwan': 2, 'DEFRA': 3, 'GHG': 4, 'MEIH': 5, 'IGES': 6, 'GHG 2017': 7, 'US EPA-SupplyChain-USD2021': 8, 'IPCC': 9, 'Knowles-EPA': 10, 'Knowles-UNFCCC': 11, 'Knowles-UNFCC': 12, 'Knowles-OWID': 13, 'Knowles - EPA': 14, 'Knowles - UNFCC': 15, 'ThaiWah': 16, 'KTIS': 17}
+2024-02-28 09:11:45.358 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-28 09:11:45.363 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:11:45.364 connection.mysql_connection [INFO] our db_config:
+2024-02-28 09:11:45.364 connection.mysql_connection [INFO] host: 127.0.0.1
+2024-02-28 09:11:45.365 connection.mysql_connection [INFO] port: 3306
+2024-02-28 09:11:45.365 connection.mysql_connection [INFO] user: root
+2024-02-28 09:11:45.366 connection.mysql_connection [INFO] password: limch0227
+2024-02-28 09:11:45.366 connection.mysql_connection [INFO] autocommit: True
+2024-02-28 09:11:45.367 connection.mysql_connection [INFO] dictionary mode: False
+2024-02-28 09:11:45.367 connection.mysql_connection [INFO] =================================================
+2024-02-28 09:11:46.753 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (1, '646f06d02ed6c48f4414795f', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,4)
+            
+2024-02-28 09:11:46.765 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (2, '631ed9c392c0281e83bea81e', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.768 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (3, '631edcb792c0281e83bea81f', 'Fuel Type', 'scope1', 'Other Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.770 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (4, '631eddc692c0281e83bea820', 'Fuel Type', 'scope1', 'Biomass Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.773 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (5, '631ee04492c0281e83bea821', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.775 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (6, '631ee50892c0281e83bea823', 'Fuel Type', 'scope1', 'Other Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.777 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (7, '631ee4d092c0281e83bea822', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.779 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (8, '631ee85792c0281e83bea824', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.780 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (9, '631ee9cc92c0281e83bea825', 'Fuel Type', 'scope1', 'Biomass Fuels - Liquid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.783 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (10, '631ee9cc92c0281e83bea826', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.785 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (11, '646f1352dc77466cc2755852', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.787 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (12, '646f1352dc77466cc2755853', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.789 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (13, '646f1352dc77466cc2755854', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.791 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (14, '646f1352dc77466cc2755855', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.794 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (15, '646f1352dc77466cc2755856', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.797 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (16, '647035bfaf8fe17f40237b7b', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,4)
+            
+2024-02-28 09:11:46.799 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (17, '647428324a38ff33ba85477f', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.800 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (18, '647428594a38ff33ba854781', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.803 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (19, '6474285f4a38ff33ba854782', 'Fuel Type', 'scope1', 'Biomass', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.805 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (20, '647428674a38ff33ba854783', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.807 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (21, '6474286f4a38ff33ba854784', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.809 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (22, '647428764a38ff33ba854785', 'Fuel Type', 'scope1', 'Solid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.811 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (23, '64745421a3f326c8c2a5dd64', 'Fuel Type', 'scope3', 'Anaerobically Digested (Dry Digestate with Curing)', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.813 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (24, '64745425a3f326c8c2a5dd65', 'Fuel Type', 'scope3', 'Anaerobically Digested (Wet Digestate with Curing)', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.816 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (25, '6474542aa3f326c8c2a5dd66', 'Fuel Type', 'scope3', 'Combustion', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.818 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (26, '6474542ea3f326c8c2a5dd67', 'Fuel Type', 'scope3', 'Compost', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.820 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (27, '64745433a3f326c8c2a5dd68', 'Fuel Type', 'scope3', 'Landfill', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.821 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (28, '64745438a3f326c8c2a5dd69', 'Fuel Type', 'scope3', 'Recycled', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.824 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (29, '647455b9a3f326c8c2a5dd6a', 'Fuel Type', 'scope3', 'Recycled', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.826 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (30, '647455bea3f326c8c2a5dd6b', 'Fuel Type', 'scope3', 'Landfill', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.829 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (31, '647455c3a3f326c8c2a5dd6c', 'Fuel Type', 'scope3', 'Compost', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.831 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (32, '647455c8a3f326c8c2a5dd6d', 'Fuel Type', 'scope3', 'Combustion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.835 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (33, '647455d0a3f326c8c2a5dd6e', 'Fuel Type', 'scope3', 'Anaerobically Digested (Wet Digestate with Curing)', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.837 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (34, '647455d7a3f326c8c2a5dd6f', 'Fuel Type', 'scope3', 'Anaerobically Digested (Dry Digestate with Curing)', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.839 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (35, '6474596049261bb379615e63', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,3)
+            
+2024-02-28 09:11:46.841 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (36, '64759f570af59419c99f98ef', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.848 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (37, '6475ae300af59419c99f98f0', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.850 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (38, '6475ae3d0af59419c99f98f1', 'Fuel Type', 'scope1', 'Other Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.853 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (39, '6475ae470af59419c99f98f2', 'Fuel Type', 'scope1', 'Other Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.855 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (40, '6475ae4f0af59419c99f98f3', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.857 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (41, '6475ae580af59419c99f98f4', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.859 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (42, '6475ae630af59419c99f98f5', 'Fuel Type', 'scope1', 'Biomass Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.861 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (43, '6475ae6c0af59419c99f98f6', 'Fuel Type', 'scope1', 'Biomass Fuels - Liquid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.867 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (44, '6475ae740af59419c99f98f7', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:46.869 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (45, '6475cb663f9fd74db8e648df', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.871 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (46, '6475cbc83f9fd74db8e648e0', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.875 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (47, '6475cbdc3f9fd74db8e648e1', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.878 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (48, '6475cc243f9fd74db8e648e2', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.881 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (49, '6475cc2d3f9fd74db8e648e3', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.884 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (50, '6476c7827c507c864a5645a4', 'Fuel Type', 'scope3', 'Anaerobic digestion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.886 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (51, '6476c7a87c507c864a5645a5', 'Fuel Type', 'scope3', 'Closed-loop', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.888 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (52, '6476c7be7c507c864a5645a6', 'Fuel Type', 'scope3', 'Combustion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.889 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (53, '6476c7de7c507c864a5645a7', 'Fuel Type', 'scope3', 'Compost', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.891 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (54, '6476c7f27c507c864a5645a8', 'Fuel Type', 'scope3', 'Landfill', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.894 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (55, '6476c8027c507c864a5645a9', 'Fuel Type', 'scope3', 'Open-loop', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.898 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (56, '6476ccc44de3cb3a80acd3fd', 'Purchased Goods', 'scope3', 'Closed-loop source', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 09:11:46.900 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (57, '6476ccc84de3cb3a80acd3fe', 'Purchased Goods', 'scope3', 'Primary material production', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 09:11:46.905 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (58, '6476cccd4de3cb3a80acd3ff', 'Purchased Goods', 'scope3', 'Re-used', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 09:11:46.907 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (59, '64796deb2fad9b17410b2eb2', 'Use of Assets (through leased equipment) by an Organization', 'scope3', 'Vehicle', 'Use of Assets (through leased equipment) by an Organization', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.909 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (60, '647d6257b1c6eb3718c8a7a9', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,6)
+            
+2024-02-28 09:11:46.911 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (61, '647d9566d650a91f29bf0e66', 'Fuel Type', 'scope3', 'Homeworking', 'GHG Emissions or Removals from Other Sources', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.915 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (62, '647d9b94a6222805ac455385', 'Mobile Combustion', 'scope1', 'Distance Activity', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.917 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (63, '647eadf1bed6d97c073ae590', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 09:11:46.919 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (64, '647eae2ebed6d97c073ae591', 'Mobile Combustion', 'scope1', 'Distance Activity', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.921 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (65, '6486f1427c3e764b3416c154', 'Fuel Type', 'scope1', 'Oil products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,7)
+            
+2024-02-28 09:11:46.924 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (66, '6487f95cfaf67ba5b14df0a0', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Supply Chain Emission Factors without Margins', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 09:11:46.927 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (67, '6487f95cfaf67ba5b14df0a1', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Margins of Supply Chain Emission Factors', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 09:11:46.930 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (68, '6487f95cfaf67ba5b14df0a2', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Supply Chain Emission Factors with Margins', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 09:11:46.934 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (69, '648aeeb5691928514b3ed8b3', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 09:11:46.936 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (70, '6492c50940212a145edcc551', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,1)
+            
+2024-02-28 09:11:46.938 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (71, '6493e1eef6199f463f7c1642', 'Fuel Type', 'scope1', 'Enteric Fermentation', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.940 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (72, '6493e1eef6199f463f7c1643', 'Fuel Type', 'scope1', 'Manure Management', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.942 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (73, '6493e1eef6199f463f7c1644', 'Fuel Type', 'scope1', 'Forest land', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.945 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (74, '6493e1eef6199f463f7c1645', 'Fuel Type', 'scope1', 'Cropland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.947 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (75, '6493e1eef6199f463f7c1646', 'Fuel Type', 'scope1', 'Land Converted to Cropland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.949 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (76, '6493e1eef6199f463f7c1647', 'Fuel Type', 'scope1', 'Land Converted to Grassland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.951 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (77, '6493e1eef6199f463f7c1648', 'Fuel Type', 'scope1', 'Wetlands', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 09:11:46.954 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (78, '64ab898be0b872f6ad0811aa', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.956 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (79, '64ab8998e0b872f6ad0811ac', 'Fuel Type', 'scope3', 'Scheduled Waste', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.958 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (80, '64ab8998e0b872f6ad0811ad', 'Fuel Type', 'scope3', 'Recycled', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.960 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (81, '64ab89a3e0b872f6ad0811af', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.964 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (82, '64ab89aee0b872f6ad0811b1', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,10)
+            
+2024-02-28 09:11:46.967 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (83, '64ab89bae0b872f6ad0811b3', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,10)
+            
+2024-02-28 09:11:46.968 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (84, '64ab89c7e0b872f6ad0811b5', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 09:11:46.971 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (85, '64ab89c7e0b872f6ad0811b6', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 09:11:46.973 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (86, '64ab89c7e0b872f6ad0811b7', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,15)
+            
+2024-02-28 09:11:46.980 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (87, '64ab89c7e0b872f6ad0811b8', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 09:11:46.984 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (88, '64ab89c7e0b872f6ad0811b9', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,15)
+            
+2024-02-28 09:11:46.991 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (89, '64ab89c7e0b872f6ad0811ba', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 09:11:46.994 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (90, '64ab8a0ce0b872f6ad0811bc', 'Fuel Type', 'scope3', 'City Supply', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.997 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (91, '64ab8a0ce0b872f6ad0811bd', 'Fuel Type', 'scope3', 'Physical Treatment Process', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:46.999 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (92, '64ab8a0ce0b872f6ad0811be', 'Fuel Type', 'scope3', 'Scheduled Waste', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:47.001 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (93, '64ab8a0ce0b872f6ad0811bf', 'Fuel Type', 'scope3', 'Recycled', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 09:11:47.003 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (94, '64dc8162d78b64c3eb30bd6a', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.006 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (95, '64d606e3e5d2d1ecc1b09871', 'Mobile Combustion', 'scope1', 'Fuel oil', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.008 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (96, '64d9da5bb162190603e5fff6', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.011 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (97, '64d9da51b162190603e5fff5', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.015 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (98, '64d9da49b162190603e5fff4', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.017 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (99, '64dc8195d78b64c3eb30bd6b', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'purchasedGood', 'Purchased', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.019 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (100, '64d9da44b162190603e5fff3', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.021 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (101, '64464130fbe1b86e2f17046b', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,3)
+            
+2024-02-28 09:11:47.125 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (102, '6539e8614b15539fa3f542fd', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.128 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (103, '6539e8614b15539fa3f542fe', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.130 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (104, '6539e8614b15539fa3f542ff', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.131 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (105, '6539e8614b15539fa3f54300', 'Fuel Type', 'scope1', 'Fire tank', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.134 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (106, '6539e8614b15539fa3f54301', 'Fuel Type', 'scope1', 'Chemical', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.137 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (107, '6539e8614b15539fa3f54302', 'Fuel Type', 'scope1', 'Bathrooms', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.139 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (108, '6539e8614b15539fa3f54303', 'Fuel Type', 'scope1', 'Waste Water', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.140 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (109, '6539e8614b15539fa3f54304', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,16)
+            
+2024-02-28 09:11:47.143 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (110, '6539e8614b15539fa3f54305', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.146 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (111, '6539e8614b15539fa3f54306', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.148 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (112, '6539e8614b15539fa3f54307', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 09:11:47.150 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (113, '6539e8614b15539fa3f54308', 'Purchased Goods', 'scope3', 'Raw Materials', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,16)
+            
+2024-02-28 09:11:47.153 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (114, '648980c3f1c8d3dbd8d0a1a8', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,6)
+            
+2024-02-28 09:11:47.155 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (115, '65791d45e3f4c7cb4228b322', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 09:11:47.158 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (116, '65791d4fe3f4c7cb4228b323', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 09:11:47.161 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (117, '65791d57e3f4c7cb4228b324', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,17)
+            
+2024-02-28 09:11:47.165 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (118, '65791d68e3f4c7cb4228b325', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 09:11:47.167 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (119, '65791defe3f4c7cb4228b326', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 09:11:47.169 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (120, '65791e30e3f4c7cb4228b327', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 09:11:47.171 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (121, '6581461eb653067119aa18ba', 'Purchased Goods', 'scope3', 'Water', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 09:11:47.173 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (122, '65855d9c20cc732e5e2721b6', 'Coal and Coke ', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.178 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (123, '65855d9c20cc732e5e2721b7', 'Other fuel', 'scope1', 'Other fuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.180 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (124, '65855d9c20cc732e5e2721b8', 'Fuel oil', 'scope1', 'Fuel oil', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', 'Petroleum Coke',2)
+            
+2024-02-28 09:11:47.184 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (125, '65855d9c20cc732e5e2721b9', 'Fuel gas', 'scope1', 'Fuel gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', 'Ethane',2)
+            
+2024-02-28 09:11:47.186 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (126, '659b741b43f11a2f3fc1d386', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', 'Taiwan', NULL,2)
+            
+2024-02-28 09:11:47.188 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (127, '65b7599147f83f5271928880', 'Fuel Type', 'scope3', 'Water', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 09:11:47.190 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (128, '65cc8e103461610fbe9a5b4a', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,5)
+            
+2024-02-28 09:11:47.195 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (129, '65d7005467cba849aed18fa6', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 09:11:47.197 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (130, '65d70db874ebed296cb84ce8', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,1)
+            
+2024-02-28 14:03:32.604 connection.mongo_connection [INFO] Connected to MongoDB
+2024-02-28 14:03:32.743 connection.mysql_connection [INFO] =================================================
+2024-02-28 14:03:32.745 connection.mysql_connection [INFO] our db_config:
+2024-02-28 14:03:32.745 connection.mysql_connection [INFO] host: 20.205.24.18
+2024-02-28 14:03:32.746 connection.mysql_connection [INFO] port: 3306
+2024-02-28 14:03:32.747 connection.mysql_connection [INFO] user: eco
+2024-02-28 14:03:32.748 connection.mysql_connection [INFO] password: ECO4ever
+2024-02-28 14:03:32.749 connection.mysql_connection [INFO] autocommit: True
+2024-02-28 14:03:32.749 connection.mysql_connection [INFO] dictionary mode: False
+2024-02-28 14:03:32.750 connection.mysql_connection [INFO] =================================================
+2024-02-28 14:03:34.028 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (1, '646f06d02ed6c48f4414795f', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,4)
+            
+2024-02-28 14:03:34.067 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (2, '631ed9c392c0281e83bea81e', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.101 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (3, '631edcb792c0281e83bea81f', 'Fuel Type', 'scope1', 'Other Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.139 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (4, '631eddc692c0281e83bea820', 'Fuel Type', 'scope1', 'Biomass Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.174 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (5, '631ee04492c0281e83bea821', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.217 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (6, '631ee50892c0281e83bea823', 'Fuel Type', 'scope1', 'Other Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.253 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (7, '631ee4d092c0281e83bea822', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.289 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (8, '631ee85792c0281e83bea824', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.324 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (9, '631ee9cc92c0281e83bea825', 'Fuel Type', 'scope1', 'Biomass Fuels - Liquid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.362 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (10, '631ee9cc92c0281e83bea826', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.398 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (11, '646f1352dc77466cc2755852', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.433 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (12, '646f1352dc77466cc2755853', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.473 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (13, '646f1352dc77466cc2755854', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.510 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (14, '646f1352dc77466cc2755855', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.549 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (15, '646f1352dc77466cc2755856', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,4)
+            
+2024-02-28 14:03:34.588 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (16, '647035bfaf8fe17f40237b7b', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,4)
+            
+2024-02-28 14:03:34.625 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (17, '647428324a38ff33ba85477f', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.661 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (18, '647428594a38ff33ba854781', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.698 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (19, '6474285f4a38ff33ba854782', 'Fuel Type', 'scope1', 'Biomass', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.733 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (20, '647428674a38ff33ba854783', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.768 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (21, '6474286f4a38ff33ba854784', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.807 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (22, '647428764a38ff33ba854785', 'Fuel Type', 'scope1', 'Solid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:34.844 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (23, '64745421a3f326c8c2a5dd64', 'Fuel Type', 'scope3', 'Anaerobically Digested (Dry Digestate with Curing)', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:34.879 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (24, '64745425a3f326c8c2a5dd65', 'Fuel Type', 'scope3', 'Anaerobically Digested (Wet Digestate with Curing)', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:34.919 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (25, '6474542aa3f326c8c2a5dd66', 'Fuel Type', 'scope3', 'Combustion', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:34.960 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (26, '6474542ea3f326c8c2a5dd67', 'Fuel Type', 'scope3', 'Compost', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:34.997 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (27, '64745433a3f326c8c2a5dd68', 'Fuel Type', 'scope3', 'Landfill', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.033 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (28, '64745438a3f326c8c2a5dd69', 'Fuel Type', 'scope3', 'Recycled', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.067 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (29, '647455b9a3f326c8c2a5dd6a', 'Fuel Type', 'scope3', 'Recycled', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.102 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (30, '647455bea3f326c8c2a5dd6b', 'Fuel Type', 'scope3', 'Landfill', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.140 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (31, '647455c3a3f326c8c2a5dd6c', 'Fuel Type', 'scope3', 'Compost', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.176 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (32, '647455c8a3f326c8c2a5dd6d', 'Fuel Type', 'scope3', 'Combustion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.213 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (33, '647455d0a3f326c8c2a5dd6e', 'Fuel Type', 'scope3', 'Anaerobically Digested (Wet Digestate with Curing)', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.249 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (34, '647455d7a3f326c8c2a5dd6f', 'Fuel Type', 'scope3', 'Anaerobically Digested (Dry Digestate with Curing)', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.285 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (35, '6474596049261bb379615e63', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,3)
+            
+2024-02-28 14:03:35.319 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (36, '64759f570af59419c99f98ef', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.353 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (37, '6475ae300af59419c99f98f0', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.388 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (38, '6475ae3d0af59419c99f98f1', 'Fuel Type', 'scope1', 'Other Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.423 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (39, '6475ae470af59419c99f98f2', 'Fuel Type', 'scope1', 'Other Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.459 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (40, '6475ae4f0af59419c99f98f3', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.492 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (41, '6475ae580af59419c99f98f4', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.530 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (42, '6475ae630af59419c99f98f5', 'Fuel Type', 'scope1', 'Biomass Fuels - Solid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.565 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (43, '6475ae6c0af59419c99f98f6', 'Fuel Type', 'scope1', 'Biomass Fuels - Liquid', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.602 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (44, '6475ae740af59419c99f98f7', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:35.638 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (45, '6475cb663f9fd74db8e648df', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.677 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (46, '6475cbc83f9fd74db8e648e0', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.714 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (47, '6475cbdc3f9fd74db8e648e1', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.752 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (48, '6475cc243f9fd74db8e648e2', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.787 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (49, '6475cc2d3f9fd74db8e648e3', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.823 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (50, '6476c7827c507c864a5645a4', 'Fuel Type', 'scope3', 'Anaerobic digestion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.858 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (51, '6476c7a87c507c864a5645a5', 'Fuel Type', 'scope3', 'Closed-loop', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.895 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (52, '6476c7be7c507c864a5645a6', 'Fuel Type', 'scope3', 'Combustion', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.931 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (53, '6476c7de7c507c864a5645a7', 'Fuel Type', 'scope3', 'Compost', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:35.967 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (54, '6476c7f27c507c864a5645a8', 'Fuel Type', 'scope3', 'Landfill', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.004 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (55, '6476c8027c507c864a5645a9', 'Fuel Type', 'scope3', 'Open-loop', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.041 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (56, '6476ccc44de3cb3a80acd3fd', 'Purchased Goods', 'scope3', 'Closed-loop source', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 14:03:36.080 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (57, '6476ccc84de3cb3a80acd3fe', 'Purchased Goods', 'scope3', 'Primary material production', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 14:03:36.118 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (58, '6476cccd4de3cb3a80acd3ff', 'Purchased Goods', 'scope3', 'Re-used', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 14:03:36.153 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (59, '64796deb2fad9b17410b2eb2', 'Use of Assets (through leased equipment) by an Organization', 'scope3', 'Vehicle', 'Use of Assets (through leased equipment) by an Organization', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.190 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (60, '647d6257b1c6eb3718c8a7a9', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,6)
+            
+2024-02-28 14:03:36.226 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (61, '647d9566d650a91f29bf0e66', 'Fuel Type', 'scope3', 'Homeworking', 'GHG Emissions or Removals from Other Sources', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.261 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (62, '647d9b94a6222805ac455385', 'Mobile Combustion', 'scope1', 'Distance Activity', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:36.295 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (63, '647eadf1bed6d97c073ae590', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,4)
+            
+2024-02-28 14:03:36.333 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (64, '647eae2ebed6d97c073ae591', 'Mobile Combustion', 'scope1', 'Distance Activity', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.369 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (65, '6486f1427c3e764b3416c154', 'Fuel Type', 'scope1', 'Oil products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,7)
+            
+2024-02-28 14:03:36.406 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (66, '6487f95cfaf67ba5b14df0a0', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Supply Chain Emission Factors without Margins', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 14:03:36.442 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (67, '6487f95cfaf67ba5b14df0a1', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Margins of Supply Chain Emission Factors', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 14:03:36.479 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (68, '6487f95cfaf67ba5b14df0a2', 'Capital Goods that are Purchased and Amortized by an Organization', 'scope3', 'Supply Chain Emission Factors with Margins', 'Capital Goods that are Purchased and Amortized by an Organization', 'category', 'purchasedGood', 'Purchased', NULL, NULL,8)
+            
+2024-02-28 14:03:36.517 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (69, '648aeeb5691928514b3ed8b3', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,3)
+            
+2024-02-28 14:03:36.554 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (70, '6492c50940212a145edcc551', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,1)
+            
+2024-02-28 14:03:36.587 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (71, '6493e1eef6199f463f7c1642', 'Fuel Type', 'scope1', 'Enteric Fermentation', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.625 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (72, '6493e1eef6199f463f7c1643', 'Fuel Type', 'scope1', 'Manure Management', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.661 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (73, '6493e1eef6199f463f7c1644', 'Fuel Type', 'scope1', 'Forest land', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.696 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (74, '6493e1eef6199f463f7c1645', 'Fuel Type', 'scope1', 'Cropland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.733 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (75, '6493e1eef6199f463f7c1646', 'Fuel Type', 'scope1', 'Land Converted to Cropland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.771 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (76, '6493e1eef6199f463f7c1647', 'Fuel Type', 'scope1', 'Land Converted to Grassland', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.815 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (77, '6493e1eef6199f463f7c1648', 'Fuel Type', 'scope1', 'Wetlands', 'Land Use, Land Use Change and Forestry (LULUCF)', 'category', 'fuelType', 'Fuel Type', NULL, NULL,9)
+            
+2024-02-28 14:03:36.851 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (78, '64ab898be0b872f6ad0811aa', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,10)
+            
+2024-02-28 14:03:36.895 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (79, '64ab8998e0b872f6ad0811ac', 'Fuel Type', 'scope3', 'Scheduled Waste', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:36.933 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (80, '64ab8998e0b872f6ad0811ad', 'Fuel Type', 'scope3', 'Recycled', 'End of Life Stage of the Product', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:36.974 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (81, '64ab89a3e0b872f6ad0811af', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:37.013 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (82, '64ab89aee0b872f6ad0811b1', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,10)
+            
+2024-02-28 14:03:37.049 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (83, '64ab89bae0b872f6ad0811b3', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,10)
+            
+2024-02-28 14:03:37.085 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (84, '64ab89c7e0b872f6ad0811b5', 'Fuel Type', 'scope1', 'Natural Gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 14:03:37.122 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (85, '64ab89c7e0b872f6ad0811b6', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 14:03:37.159 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (86, '64ab89c7e0b872f6ad0811b7', 'Fuel Type', 'scope1', 'Biofuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,15)
+            
+2024-02-28 14:03:37.203 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (87, '64ab89c7e0b872f6ad0811b8', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 14:03:37.242 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (88, '64ab89c7e0b872f6ad0811b9', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,15)
+            
+2024-02-28 14:03:37.283 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (89, '64ab89c7e0b872f6ad0811ba', 'Fuel Type', 'scope1', 'Gaseous fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,14)
+            
+2024-02-28 14:03:37.321 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (90, '64ab8a0ce0b872f6ad0811bc', 'Fuel Type', 'scope3', 'City Supply', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:37.361 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (91, '64ab8a0ce0b872f6ad0811bd', 'Fuel Type', 'scope3', 'Physical Treatment Process', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:37.403 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (92, '64ab8a0ce0b872f6ad0811be', 'Fuel Type', 'scope3', 'Scheduled Waste', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:37.437 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (93, '64ab8a0ce0b872f6ad0811bf', 'Fuel Type', 'scope3', 'Recycled', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,10)
+            
+2024-02-28 14:03:37.472 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (94, '64dc8162d78b64c3eb30bd6a', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.507 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (95, '64d606e3e5d2d1ecc1b09871', 'Mobile Combustion', 'scope1', 'Fuel oil', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.544 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (96, '64d9da5bb162190603e5fff6', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.581 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (97, '64d9da51b162190603e5fff5', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.617 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (98, '64d9da49b162190603e5fff4', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.654 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (99, '64dc8195d78b64c3eb30bd6b', 'Client and Visitor Transport', 'scope3', NULL, 'Client and Visitor Transport', 'category', 'purchasedGood', 'Purchased', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.694 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (100, '64d9da44b162190603e5fff3', 'Business Travel', 'scope3', NULL, 'Business Travel', 'category', 'vehicleType', 'Vehicle Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:37.729 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (101, '64464130fbe1b86e2f17046b', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,3)
+            
+2024-02-28 14:03:38.128 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (102, '6539e8614b15539fa3f542fd', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.166 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (103, '6539e8614b15539fa3f542fe', 'Fuel Type', 'scope1', 'Liquid fuels', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.204 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (104, '6539e8614b15539fa3f542ff', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.241 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (105, '6539e8614b15539fa3f54300', 'Fuel Type', 'scope1', 'Fire tank', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.275 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (106, '6539e8614b15539fa3f54301', 'Fuel Type', 'scope1', 'Chemical', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.315 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (107, '6539e8614b15539fa3f54302', 'Fuel Type', 'scope1', 'Bathrooms', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.354 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (108, '6539e8614b15539fa3f54303', 'Fuel Type', 'scope1', 'Waste Water', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.394 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (109, '6539e8614b15539fa3f54304', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,16)
+            
+2024-02-28 14:03:38.429 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (110, '6539e8614b15539fa3f54305', 'Upstream T&D', 'scope3', NULL, 'Upstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.462 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (111, '6539e8614b15539fa3f54306', 'Downstream T&D', 'scope3', NULL, 'Downstream T&D', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.498 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (112, '6539e8614b15539fa3f54307', 'Employee Commuting', 'scope3', NULL, 'Employee Commuting', 'category', 'vehicleType', 'Vehicle Type', NULL, NULL,16)
+            
+2024-02-28 14:03:38.532 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (113, '6539e8614b15539fa3f54308', 'Purchased Goods', 'scope3', 'Raw Materials', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,16)
+            
+2024-02-28 14:03:38.574 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (114, '648980c3f1c8d3dbd8d0a1a8', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,6)
+            
+2024-02-28 14:03:38.610 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (115, '65791d45e3f4c7cb4228b322', 'Fuel Type', 'scope1', 'Petroleum Products', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 14:03:38.645 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (116, '65791d4fe3f4c7cb4228b323', 'Fuel Type', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 14:03:38.679 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (117, '65791d57e3f4c7cb4228b324', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,17)
+            
+2024-02-28 14:03:38.715 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (118, '65791d68e3f4c7cb4228b325', 'Fuel Type', 'scope1', 'Biomass Fuels - Gaseous', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 14:03:38.751 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (119, '65791defe3f4c7cb4228b326', 'Fuel Type', 'scope1', 'Biomass Fuels - Kraft Pulping Liquor, by Wood Furnish', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 14:03:38.788 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (120, '65791e30e3f4c7cb4228b327', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,17)
+            
+2024-02-28 14:03:38.825 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (121, '6581461eb653067119aa18ba', 'Purchased Goods', 'scope3', 'Water', 'Purchased Goods', 'category', 'purchasedGood', 'Purchased', NULL, NULL,3)
+            
+2024-02-28 14:03:38.863 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (122, '65855d9c20cc732e5e2721b6', 'Coal and Coke ', 'scope1', 'Coal and Coke', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:38.897 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (123, '65855d9c20cc732e5e2721b7', 'Other fuel', 'scope1', 'Other fuel', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:38.935 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (124, '65855d9c20cc732e5e2721b8', 'Fuel oil', 'scope1', 'Fuel oil', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', 'Petroleum Coke',2)
+            
+2024-02-28 14:03:38.972 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (125, '65855d9c20cc732e5e2721b9', 'Fuel gas', 'scope1', 'Fuel gas', 'Stationary Combustion', 'category', 'fuelType', 'Fuel Type', 'Taiwan', 'Ethane',2)
+            
+2024-02-28 14:03:39.012 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (126, '659b741b43f11a2f3fc1d386', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', 'Taiwan', NULL,2)
+            
+2024-02-28 14:03:39.048 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (127, '65b7599147f83f5271928880', 'Fuel Type', 'scope3', 'Water', 'Waste', 'category', 'fuelType', 'Fuel Type', NULL, NULL,3)
+            
+2024-02-28 14:03:39.085 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (128, '65cc8e103461610fbe9a5b4a', 'Location Based', 'scope2', 'Grid Average/Location Based', 'Purchased Electricity', 'category', 'calculateMethod', 'Location Based', NULL, NULL,5)
+            
+2024-02-28 14:03:39.119 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (129, '65d7005467cba849aed18fa6', 'Mobile Combustion', 'scope1', 'Fuel Use', 'Mobile Combustion', 'category', 'fuelType', 'Fuel Type', NULL, NULL,1)
+            
+2024-02-28 14:03:39.154 utils.util [DEBUG] 
+                REPLACE INTO emissionFactor.mongoInfo(sId, _id, type, scope, typeOfEmission, category, categoryKey, nameKey, sourceType, usedRegion, sourceOfEmission, EFSId) VALUES (130, '65d70db874ebed296cb84ce8', 'Refrigerants', 'scope1', NULL, 'Refrigerants and Fugitives', 'category', 'refrigerantsUsed', 'Refrigerants Used', NULL, NULL,1)
+            

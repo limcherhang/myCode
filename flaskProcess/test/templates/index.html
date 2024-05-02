@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MySQL Query</title>
+    <script>
+        function toggleSchemaTables(schema) {
+            var tablesDiv = document.getElementById(schema);
+            tablesDiv.style.display = tablesDiv.style.display === 'none' ? 'block' : 'none';
+        };
+        function submitForm(event) {
+            // 检查按下的键是否是 Enter 并且同时按下了 Ctrl 键
+            if (event.keyCode === 13 && event.ctrlKey) {
+                document.getElementById("form").submit();
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>MySQL Query</h1>
+    <div>
+        <h2>Enter your SQL query:</h2>
+        <form id="form" action="/query" method="post">
+            <textarea id="sql_query" name="sql_query" rows="4" cols="100" onkeydown="submitForm(event)"></textarea><br><br>
+            <input type="submit" value="Run Query">
+        </form>
+        
+        <h2>history</h2>
+        <div>
+            {% if historys is none %}
+                There is no history data.
+            {% else %}
+                <ul>
+                    {% for h in historys %}
+                        <li>{{ h }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+
+    <div>
+        <h2>MySQL Schema and Tables:</h2>
+        {% for schema in schemas %}
+            <button onclick="toggleSchemaTables('{{ schema }}')">{{ schema }}</button>
+            <div id="{{ schema }}" style="display: none;">
+                <ul>
+                    {% for table in tables[schema] %}
+                        <li>{{ table }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div>
+        <h2>Query Result:</h2>
+        Row count: {{ Count }}
+        <br>
+        {% if query_result %}
+            {% if query_result is string %}
+                <p>{{ query_result }}</p>
+            {% else %}
+                <table border="1">
+                    <thead>
+                        <tr>
+                            {% for column_title in column_titles %}
+                                <th>{{ column_title }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in query_result %}
+                            <tr>
+                                {% for column_value in row %}
+                                    {% if column_value is none %}
+                                        <td>NULL</td>
+                                    {% else %}
+                                        <td>{{ column_value }}</td>
+                                    {% endif %}
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>

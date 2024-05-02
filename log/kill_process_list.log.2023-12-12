@@ -1,0 +1,51 @@
+2023-12-12 13:21:22.388 connection.mysql_connection [INFO] =================================================
+2023-12-12 13:21:22.413 connection.mysql_connection [INFO] our db_config:
+2023-12-12 13:21:22.414 connection.mysql_connection [INFO] host: 20.205.24.18
+2023-12-12 13:21:22.415 connection.mysql_connection [INFO] port: 3306
+2023-12-12 13:21:22.416 connection.mysql_connection [INFO] user: eco
+2023-12-12 13:21:22.417 connection.mysql_connection [INFO] password: ECO4ever
+2023-12-12 13:21:22.417 connection.mysql_connection [INFO] autocommit: True
+2023-12-12 13:21:22.418 connection.mysql_connection [INFO] dictionary mode: False
+2023-12-12 13:21:22.419 connection.mysql_connection [INFO] =================================================
+2023-12-12 13:21:22.447 utils.util [DEBUG] (58207552, 'eco', '1-165-82-248.dynamic-ip.hinet.net:55520', 'sys', 'Sleep', 7808, '', None)
+2023-12-12 13:21:22.471 utils.util [DEBUG] (58207578, 'eco', '1-165-82-248.dynamic-ip.hinet.net:55625', 'sys', 'Sleep', 7208, '', None)
+2023-12-12 13:21:22.495 utils.util [DEBUG] (58207579, 'eco', '1-165-82-248.dynamic-ip.hinet.net:55626', 'sys', 'Sleep', 7207, '', None)
+2023-12-12 13:21:22.520 utils.util [DEBUG] (58207588, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62261', 'dataPlatform2023', 'Sleep', 6244, '', None)
+2023-12-12 13:21:22.545 utils.util [DEBUG] (58207589, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62262', 'dataPlatform2023', 'Sleep', 6244, '', None)
+2023-12-12 13:21:22.572 utils.util [DEBUG] (58207662, 'eco', '1-165-82-248.dynamic-ip.hinet.net:55911', 'sys', 'Sleep', 5838, '', None)
+2023-12-12 13:21:22.600 utils.util [DEBUG] (58207663, 'eco', '1-165-82-248.dynamic-ip.hinet.net:55912', 'sys', 'Sleep', 5839, '', None)
+2023-12-12 13:21:22.628 utils.util [DEBUG] (58207850, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62325', 'dataPlatform2023', 'Sleep', 5594, '', None)
+2023-12-12 13:21:22.656 utils.util [DEBUG] (58207887, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62327', 'dataPlatform2023', 'Sleep', 5594, '', None)
+2023-12-12 13:21:22.684 utils.util [DEBUG] (58208029, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56048', 'sys', 'Sleep', 5499, '', None)
+2023-12-12 13:21:22.712 utils.util [DEBUG] (58208062, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56054', 'sys', 'Sleep', 5479, '', None)
+2023-12-12 13:21:22.739 utils.util [DEBUG] (58208204, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62437', 'dataPlatform2023', 'Sleep', 4949, '', None)
+2023-12-12 13:21:22.764 utils.util [DEBUG] (58208210, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62440', 'mgmtUI', 'Sleep', 4892, '', None)
+2023-12-12 13:21:22.789 utils.util [DEBUG] (58208239, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62443', 'dataPlatform2023', 'Sleep', 4949, '', None)
+2023-12-12 13:21:22.815 utils.util [DEBUG] (58208378, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56195', 'sys', 'Sleep', 4899, '', None)
+2023-12-12 13:21:22.840 utils.util [DEBUG] (58208405, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56204', 'sys', 'Sleep', 4879, '', None)
+2023-12-12 13:21:22.864 utils.util [DEBUG] (58219089, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62482', 'dataPlatform2023', 'Sleep', 4583, '', None)
+2023-12-12 13:21:22.892 utils.util [DEBUG] (58219963, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62483', 'dataPlatform2023', 'Sleep', 4563, '', None)
+2023-12-12 13:21:22.916 utils.util [DEBUG] (58229507, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56312', 'sys', 'Sleep', 4299, '', None)
+2023-12-12 13:21:22.940 utils.util [DEBUG] (58230006, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56315', 'sys', 'Sleep', 4279, '', None)
+2023-12-12 13:21:22.964 utils.util [DEBUG] (58238895, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62543', 'dataPlatform2023', 'Sleep', 3983, '', None)
+2023-12-12 13:21:22.992 utils.util [DEBUG] (58239421, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62544', 'dataPlatform2023', 'Sleep', 3963, '', None)
+2023-12-12 13:21:23.015 utils.util [DEBUG] (58247483, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56406', 'sys', 'Sleep', 3699, '', None)
+2023-12-12 13:21:23.040 utils.util [DEBUG] (58248000, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56415', 'sys', 'Sleep', 3679, '', None)
+2023-12-12 13:21:23.064 utils.util [DEBUG] (58257416, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62570', 'dataPlatform2023', 'Sleep', 3383, '', None)
+2023-12-12 13:21:23.088 utils.util [DEBUG] (58257947, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62571', 'dataPlatform2023', 'Sleep', 3363, '', None)
+2023-12-12 13:21:23.112 utils.util [DEBUG] (58265303, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56506', 'sys', 'Sleep', 3099, '', None)
+2023-12-12 13:21:23.135 utils.util [DEBUG] (58265842, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56509', 'sys', 'Sleep', 3079, '', None)
+2023-12-12 13:21:23.160 utils.util [DEBUG] (58274917, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62624', 'dataPlatform2023', 'Sleep', 2783, '', None)
+2023-12-12 13:21:23.184 utils.util [DEBUG] (58275675, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62626', 'dataPlatform2023', 'Sleep', 2763, '', None)
+2023-12-12 13:21:23.208 utils.util [DEBUG] (58283917, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56604', 'sys', 'Sleep', 2499, '', None)
+2023-12-12 13:21:23.232 utils.util [DEBUG] (58284393, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56615', 'sys', 'Sleep', 2479, '', None)
+2023-12-12 13:21:23.258 utils.util [DEBUG] (58292393, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62662', 'dataPlatform2023', 'Sleep', 2183, '', None)
+2023-12-12 13:21:23.288 utils.util [DEBUG] (58293150, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62663', 'dataPlatform2023', 'Sleep', 2163, '', None)
+2023-12-12 13:21:23.312 utils.util [DEBUG] (58300349, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56669', 'sys', 'Sleep', 1899, '', None)
+2023-12-12 13:21:23.336 utils.util [DEBUG] (58300849, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56672', 'sys', 'Sleep', 1879, '', None)
+2023-12-12 13:21:23.364 utils.util [DEBUG] (58308960, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62677', 'dataPlatform2023', 'Sleep', 1583, '', None)
+2023-12-12 13:21:23.392 utils.util [DEBUG] (58309710, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62678', 'dataPlatform2023', 'Sleep', 1563, '', None)
+2023-12-12 13:21:23.420 utils.util [DEBUG] (58317307, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56762', 'sys', 'Sleep', 1299, '', None)
+2023-12-12 13:21:23.444 utils.util [DEBUG] (58317817, 'eco', '1-165-82-248.dynamic-ip.hinet.net:56765', 'sys', 'Sleep', 1279, '', None)
+2023-12-12 13:21:23.468 utils.util [DEBUG] (58334158, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62731', 'dataPlatform2023', 'Sleep', 983, '', None)
+2023-12-12 13:21:23.492 utils.util [DEBUG] (58335837, 'ecoui', '1-165-82-248.dynamic-ip.hinet.net:62733', 'dataPlatform2023', 'Sleep', 963, '', None)
