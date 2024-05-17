@@ -1,0 +1,32 @@
+# version: '3'
+# services:
+#   airflow:
+#     image: puckel/docker-airflow:latest
+#     restart: always
+#     ports:
+#       - "8080:8080"
+#     environment:
+#       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=mysql://eco:ECO4ever@20.205.24.18:3306/mgmtCarbon
+#       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+#       - AIRFLOW_CONN_MONGO_CONN=mongodb://carbonAdmin:carbonAdmin%23139@20.6.34.160:27017/db_prod_v1
+#     volumes:
+#       - ./dags:/opt/airflow/dags
+#       - ./logs:/opt/airflow/logs
+#       - ./plugins:/opt/airflow/plugins
+
+version: '3'
+services:
+  airflow:
+    image: apache/airflow:latest
+    restart: always
+    ports:
+      - "8888:8080"
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=mysql://eco:ECO4ever@20.205.24.18:3306/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
